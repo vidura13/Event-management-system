@@ -86,7 +86,7 @@ The system follows a **Layered Architecture** for clarity and maintainability:
     - Update your connection string in `api/appsettings.json`:
       ```json
       "ConnectionStrings": {
-        "DefaultConnection": "server=localhost;port=3306;database=event_management;user=root;password=your_password"
+        "DefaultConnection": "server=localhost;port=3306;database=event_management;user=root;password=YOUR_SERVER_PASSWORD"
       }
       ```
 
@@ -105,7 +105,7 @@ The system follows a **Layered Architecture** for clarity and maintainability:
     npm install
     npm start
     ```
-    - The app opens at [http://localhost:3000](http://localhost:3000).
+    - The app opens at [http://localhost:3000](http://localhost:3000). (Default)
     - Ensure your API URL is set in `client/.env`:
       ```
       REACT_APP_API_URL=https://localhost:5001
