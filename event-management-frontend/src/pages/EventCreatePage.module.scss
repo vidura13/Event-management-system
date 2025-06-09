@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap');
+
+:root {
+  --blue-main: #2563eb;
+  --blue-dark: #1e40af;
+  --blue-light: #e0e7ff;
+  --blue-bg: #f5faff;
+  --blue-border: #b6cdfc;
+  --gray-bg: #f8fafc;
+  --gray-border: #e5e7eb;
+  --text-main: #21304a;
+  --text-light: #4a6699;
+  --danger: #d90429;
+}
+
+.outer {
+  min-height: 100vh;
+  background: var(--blue-bg);
+}
+
+.pageTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--blue-dark);
+  font-weight: 700;
+  margin: 0;
+  padding: 36px 0 22px 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  padding: 32px 16px;
+  max-width: 540px;
+  margin: 0 auto;
+  background: var(--blue-bg);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(37, 99, 235, 0.06);
+  border: 1px solid var(--blue-light);
+}
+
+.backBtn {
+  background: var(--blue-main) !important;
+  border: 1px solid var(--blue-main);
+  color: #fff !important;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 6px 12px !important;
+  font-size: 1rem !important;
+  font-family: inherit;
+  margin-bottom: 12px;
+}
+
+.backBtn:hover {
+  background: var(--blue-dark) !important;
+}
+
+.card {
+  background: #fff;
+  padding: 28px 22px 20px 22px;
+  border-radius: 12px;
+  border: 1px solid var(--blue-border);
+  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.03);
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  margin-bottom: 18px;
+  font-family: inherit;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.errorMsg {
+  color: var(--danger);
+  font-weight: 600;
+  font-size: 1.07rem;
+  background: #fff5f5;
+  padding: 7px 13px;
+  border-radius: 6px;
+  border: 1px solid #ffcccc;
+  margin-bottom: 2px;
+}
+
+.submitBtn {
+  background: var(--blue-main) !important;
+  color: #fff !important;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 10px 20px !important;
+  font-size: 1rem !important;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+.submitBtn:hover {
+  background: var(--blue-dark) !important;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 8px 0;
+    border-radius: 0;
+    box-shadow: none;
+    max-width: 100vw;
+  }
+
+  .card {
+    padding: 13px 3px 10px 3px;
+  }
+
+  .header {
+    font-size: 1.13rem;
+    margin-bottom: 13px;
+  }
+}

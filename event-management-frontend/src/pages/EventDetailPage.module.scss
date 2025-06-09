@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap');
+
+:root {
+  --blue-main: #2563eb;
+  --blue-dark: #1e40af;
+  --blue-light: #e0e7ff;
+  --blue-bg: #f5faff;
+  --blue-border: #b6cdfc;
+  --gray-bg: #f8fafc;
+  --gray-border: #e5e7eb;
+  --text-main: #21304a;
+  --text-light: #4a6699;
+  --danger: #d90429;
+  --success: #12b886;
+}
+
+.outer {
+  min-height: 100vh;
+  background: var(--blue-bg);
+}
+
+.pageTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--blue-dark);
+  font-weight: 700;
+  margin: 0;
+  padding: 36px 0 22px 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  padding: 32px 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  background: var(--blue-bg);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(37, 99, 235, 0.06);
+  border: 1px solid var(--blue-light);
+}
+
+.actionRow {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.actionBtn {
+  font-size: 1rem !important;
+  background: #2563eb !important;
+  color: #fff !important;
+  border: 1.5px solid #2563eb !important;
+  border-radius: 6px;
+  font-weight: 600;
+  min-width: 100px;
+  min-height: 40px;
+
+}
+
+.actionBtn:hover {
+  background: var(--blue-dark) !important;
+}
+
+.DeleteactionBtn {
+  font-size: 1rem !important;
+  background: var(--danger) !important;
+  color: #fff !important;
+  border: 1.5px solid var(--danger) !important;
+  border-radius: 6px;
+  font-weight: 600;
+  min-width: 100px;
+  min-height: 40px;
+
+}
+
+.DeleteactionBtn:hover {
+  background: #8d0a0a !important;
+  border: 1.5px solid #8d0a0a !important;
+}
+
+
+.eventCard {
+  background: #fff;
+  padding: 26px 22px 16px 22px;
+  border-radius: 12px;
+  border: 1px solid var(--blue-border);
+  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.03);
+  margin-bottom: 28px;
+}
+
+.header {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  margin-bottom: 18px;
+  margin-top: 3px;
+  font-family: inherit;
+}
+
+.detailRow {
+  margin-bottom: 8px;
+  color: var(--text-main);
+  font-size: 1.06rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.analytics {
+  margin-top: 14px;
+  background: var(--blue-light);
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: var(--blue-dark);
+  font-size: 1.02rem;
+
+  >div {
+    margin-bottom: 12px;
+  }
+
+  >div:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section {
+  margin-bottom: 28px;
+}
+
+.subHeader {
+  color: var(--blue-main);
+  font-size: 1.23rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.attendeeList {
+  padding-left: 20px;
+  color: var(--text-main);
+  font-size: 1.05rem;
+}
+
+.attendeeList li {
+  margin-bottom: 8px;
+}
+
+.attendeeEmail {
+  color: var(--text-light);
+  font-size: 0.97em;
+}
+
+.emptyMsg {
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.registerForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+
+.input {
+  padding: 7px 13px;
+  border: 1.5px solid var(--blue-border);
+  border-radius: 5px;
+  font-size: 1rem;
+  background: var(--blue-light);
+  color: var(--text-main);
+  font-family: inherit;
+  outline: none;
+  min-width: 160px;
+  min-height: 38px;
+  transition: border 0.18s;
+  line-height: 1.3;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border: 1.5px solid var(--blue-main);
+  background: #fff;
+}
+
+.registerBtn {
+  background: var(--blue-main) !important;
+  color: #fff !important;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 9px 18px !important;
+  font-size: 1rem !important;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+.registerBtn:hover {
+  background: var(--blue-dark) !important;
+}
+
+.errorMsg {
+  color: var(--danger);
+  font-weight: 600;
+  font-size: 1.07rem;
+  background: #fff5f5;
+  padding: 7px 13px;
+  border-radius: 6px;
+  border: 1px solid #ffcccc;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+.successMsg {
+  color: var(--success);
+  font-weight: 600;
+  font-size: 1.07rem;
+  background: #f3fff8;
+  padding: 7px 13px;
+  border-radius: 6px;
+  border: 1px solid #bdf5df;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+.statusMsg {
+  color: var(--blue-main);
+  font-size: 1.15rem;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.deleteConfirm {
+  background: #fff;
+  padding: 22px;
+  border-radius: 10px;
+  border: 1.5px solid var(--danger);
+  color: var(--danger);
+  margin-top: 28px;
+  box-shadow: 0 2px 8px rgba(217, 4, 41, 0.03);
+  text-align: center;
+  font-size: 1.08rem;
+  margin-bottom: 12px;
+}
+
+.deleteActions {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 14px;
+  background: #fff;
+}
+
+.deleteBtn {
+  background: var(--danger) !important;
+  color: #fff !important;
+  border: 1.5px solid var(--danger) !important;
+  font-weight: 600;
+  min-width: 120px;
+  min-height: 40px;
+  font-size: 1rem !important;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+
+  &:hover:not(:disabled) {
+    background: #fff !important;
+    color: var(--danger) !important;
+    border: 1.5px solid var(--danger) !important;
+  }
+}
+
+.cancelBtn {
+  background: var(--blue-main) !important;
+  color: #fff !important;
+  border: 1.5px solid var(--blue-main) !important;
+  font-weight: 600;
+  min-width: 120px;
+  min-height: 40px;
+  font-size: 1rem !important;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+
+  &:hover:not(:disabled) {
+    background: #fff !important;
+    color: var(--blue-main) !important;
+    border: 1.5px solid var(--blue-main) !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 8px 0;
+    border-radius: 0;
+  }
+
+  .eventCard {
+    padding: 13px 8px 10px 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .eventCard {
+    padding: 7px 2px 7px 2px;
+  }
+
+  .actionRow {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .registerForm {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+}
