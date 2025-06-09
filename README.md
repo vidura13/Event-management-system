@@ -6,7 +6,7 @@ A full-stack solution for managing events and attendees with ease and reliabilit
 
 ## 🚀 Project Overview
 
-The Event Management System enables organizations to efficiently create, update, and manage events while streamlining attendee registration and analytics. Designed for scalability and maintainability, the system leverages a layered backend and a responsive, professional frontend.
+The Event Management System enables organizations to efficiently create, update, and manage events while streamlining attendee registration and analytics. Designed for scalability and maintainability, the system uses a layered backend and a responsive, professional frontend.
 
 - **Objective:** Simplify event organization, maximize attendee management, and provide analytics.
 - **Target Users:** Event organizers and administration.
@@ -55,7 +55,7 @@ The system follows a **Layered Architecture** for clarity and maintainability:
 | Programming      | C# (.NET 8)            |
 | API Framework    | ASP.NET Core Web API    |
 | Frontend         | React (JavaScript/TS)   |
-| Database         | MySQL (EF Core Orject relational mapping)     |
+| Database         | MySQL (EF Core Object relational mapping)     |
 | Styling          | SCSS                    |
 
 ---
@@ -77,7 +77,7 @@ The system follows a **Layered Architecture** for clarity and maintainability:
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/yourusername/event-management-system
+    git clone https://github.com/vidura13/event-management-system
     cd event-management-system
     ```
 
