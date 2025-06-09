@@ -180,7 +180,15 @@ For questions or support, please reach out at viduravd@gmailcom.
 
 ## 📸 Screenshots
 
-
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 10px; text-align: center;"><img src="event-management-frontend/src/ui/eventList.png" alt="Event list" style="max-width: 100%; height: auto;"></td>
+    <td style="padding: 10px; text-align: center;"><img src="event-management-frontend/src/ui/viewEvent.png" alt="View an event" style="max-width: 100%; height: auto;"></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center;"><img src="event-management-frontend/src/ui/eventList_finished.png" alt="List finished events" style="max-width: 100%; height: auto;"></td>
+  </tr>
+</table>
 ---
 
 ## 🏷️ Version
